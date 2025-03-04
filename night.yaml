@@ -9,9 +9,9 @@ scene:
   background:
     color: global.land_color
   sky:
-    zenith: '#010205'
-    horizon: '#010205'
-    fog: '#21262B'
+    zenith: '#242543'
+    horizon: '#131424'
+    fog: '#131424'
 
 global:
   text_font_family: FiraGO
@@ -408,15 +408,15 @@ global:
     [11, 'rgba(127, 127, 127, 0.16)'],
     [12, 'rgba(127, 127, 127, 0.2)'] # 12 <= $zoom
   ]
-  building_color: rgba(255,255,255, .98)
+  building_color: rgba(27, 65, 108, .98)
   building_outline_color: [
-    [16, 'rgb(255,255,255)'],
-    [17, 'rgb(255,255,255)'],
-    [18, 'rgb(255,255,255)']
+    [16, 'rgb(27, 65, 108)'],
+    [17, 'rgb(27, 65, 108)'],
+    [18, 'rgb(27, 65, 108)']
   ]
   building_extrude_color: rgba(27, 65, 108,0.95)
-  building_label_color: rgb(255,255,255)
-  building_label_outline_color: rgba(255,255,255)
+  building_label_color: rgb(27, 65, 108)
+  building_label_outline_color: rgba(27, 65, 108)
 
   #global road colours
   highway_fill: [
