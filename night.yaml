@@ -215,17 +215,17 @@ global:
 
 
   #global map colours
-  land_color: rgb (15, 15, 15)
-  beach_color: rgb (15, 15, 15)
+  land_color: rgb (8, 28, 49)
+  beach_color: rgb (191, 158, 95)
   glacier_color: rgb (100, 100, 100)
-  woodland_color: rgb (26, 121, 86)
+  woodland_color: rgb (24, 89, 65)
   forest_color: [
-    [0,  'rgb(26, 121, 86)'],
-    [8,  'rgb(26, 121, 86)'],
-    [9,  'rgb(26, 121, 86)'],
-    [11, 'rgb(26, 121, 86)'],
-    [15, 'rgb(26, 121, 86)'],
-    [16, 'rgb(26, 121, 86)']
+    [0,  'rgb(24, 89, 65)'],
+    [8,  'rgb(24, 89, 65)'],
+    [9,  'rgb(24, 89, 65)'],
+    [11, 'rgb(24, 89, 65)'],
+    [15, 'rgb(24, 89, 65)'],
+    [16, 'rgb(24, 89, 65)']
   ]
   water_color: rgb (51, 96, 167)
   water_deep_color: rgb(51, 96, 167) #deep water
@@ -288,30 +288,30 @@ global:
   landuse_peak_label_outline_color: rgba(15, 15, 15,.47)
 
   builtup_area_color: [
-    [0,  'rgb(15, 15, 15)'],
-    [10, 'rgb(15, 15, 15)'],
-    [13, 'rgb(15, 15, 15)'],
-    [14, 'rgb(15, 15, 15)'],
-    [15, 'rgb(15, 15, 15)'],
-    [16, 'rgb(15, 15, 15)']
+    [0,  'rgb(8, 28, 49)'],
+    [10, 'rgb(8, 28, 49)'],
+    [13, 'rgb(8, 28, 49)'],
+    [14, 'rgb(8, 28, 49)'],
+    [15, 'rgb(8, 28, 49)'],
+    [16, 'rgb(8, 28, 49)']
   ]
   builtup_area_color_border_color: 'rgba(255,255,255,.5)'
   golf_course_color: [
-    [11, 'rgb(15, 15, 15)'],
-    [12, 'rgb(15, 15, 15)'],
-    [13, 'rgb(15, 15, 15)'],
-    [14, 'rgb(15, 15, 15)'],
-    [15, 'rgb(15, 15, 15)'],
-    [16, 'rgb(15, 15, 15)']
+    [11, 'rgb(26, 121, 86)'],
+    [12, 'rgb(26, 121, 86)'],
+    [13, 'rgb(26, 121, 86)'],
+    [14, 'rgb(26, 121, 86)'],
+    [15, 'rgb(26, 121, 86)'],
+    [16, 'rgb(26, 121, 86)']
   ]
-  hospital_color: rgb (15, 15, 15)
+  hospital_color: rgb (8, 28, 49)
   # applies to airport, harbor, industrial, rail yard, shopping complex
   industrial_color: [
-    [0,  'rgb(15, 15, 15)'],
-    [11, 'rgb(15, 15, 15)'],
-    [14, 'rgb(15, 15, 15)'],
-    [15, 'rgb(15, 15, 15)'],
-    [16, 'rgb(15, 15, 15)']
+    [0,  'rgb(8, 28, 49)'],
+    [11, 'rgb(8, 28, 49)'],
+    [14, 'rgb(8, 28, 49)'],
+    [15, 'rgb(8, 28, 49)'],
+    [16, 'rgb(8, 28, 49)']
   ]
   national_park_color: [
     [0 , 'rgba(26, 121, 86, .8)'],
@@ -322,7 +322,7 @@ global:
     [11, 'rgba(26, 121, 86, .3)'],
     [16, 'rgba(26, 121, 86, .3)']
   ]
-  island_color: rgb(15, 15, 15)
+  island_color: rgb(8, 28, 49)
   island_outline_color: rgba(15, 15, 15, .39)
   native_reservation_color: rgba (15, 15, 15, 0.78)
   military_color: rgb(15, 15, 15)
@@ -335,13 +335,13 @@ global:
     [16, 'rgb(26, 121, 86)']
   ]
   pedestrian_area_color: [
-    [9, 'rgb(15, 15, 15)'],
-    [10, 'rgb(15, 15, 15)'],
-    [12, 'rgb(15, 15, 15)'],
-    [13, 'rgb(15, 15, 15)'],
-    [14, 'rgb(15, 15, 15)'],
-    [15, 'rgb(15, 15, 15)'],
-    [16, 'rgb(15, 15, 15)']
+    [9, 'rgb(8, 28, 49)'],
+    [10, 'rgb(8, 28, 49)'],
+    [12, 'rgb(8, 28, 49)'],
+    [13, 'rgb(8, 28, 49)'],
+    [14, 'rgb(8, 28, 49)'],
+    [15, 'rgb(8, 28, 49)'],
+    [16, 'rgb(8, 28, 49)']
   ]
   aerodrome_color: [
     [10, 'rgb(15, 15, 15)'],
@@ -357,7 +357,7 @@ global:
     [15, 'rgb(50, 50, 50)'],
     [16, 'rgb(50, 50, 50)']
   ]
-  university_campus_color: rgb (15, 15, 15)
+  university_campus_color: rgb (8, 28, 49)
   state_boundary_text_color: rgb(15, 15, 15)
   country_boundary_color: [
     [4, 'rgb(160, 160, 180)'],
@@ -438,35 +438,35 @@ global:
   highway_width: [[6, 0.5 px], [7, 1 px], [8, 1.25 px], [9, 1.75 px], [11, 2 px], [12, 2.5 px], [13, 2.75 px], [14, 3.5 px], [15, 5 px], [16, 7 px], [17, 9 px], [18, 17.5 px], [19, 22.5 px], [20, 35 px]]
   highway_link_width: [[5, 0.5 px], [12, 0.5 px], [13, 1 px], [14, 1.5 px], [15, 2 px], [16, 2.5 px], [17, 3.5 px], [18, 9 px], [19, 11 px], [20, 17.5 px]]
   highway_trunk_width: [[5, 0.5 px], [8, 0.5 px], [9, 1 px], [10, 1 px], [12, 1.25 px], [13, 1.5 px], [14, 2.5 px], [15, 3.5 px], [16, 6 px], [17, 7.5 px], [18, 15 px], [19, 18.5 px], [20, 32 px]]
-  major_road_fill: [[11, 'rgb(22, 121, 156)'], [12, 'rgb(22, 121, 156)'], [13, 'rgb(22, 121, 156)']]
-  major_road_tunnel_fill: 'rgb(22, 121, 156)'
+  major_road_fill: [[11, 'rgb(92, 121, 156)'], [12, 'rgb(92, 121, 156)'], [13, 'rgb(92, 121, 156)']]
+  major_road_tunnel_fill: 'rgb(92, 121, 156)'
   major_road_link_width: [[13, 1 px], [14, 1.5 px], [15, 2 px], [16, 2.5 px], [17, 3.5 px], [18, 9 px], [19, 11.5 px], [20, 17.5 px]]
-  major_road_outline: [[10, 'rgb(22, 121, 156)'], [11, 'rgb(22, 121, 156)'], [12, 'rgb(22, 121, 156)']]
+  major_road_outline: [[10, 'rgb(92, 121, 156)'], [11, 'rgb(92, 121, 156)'], [12, 'rgb(92, 121, 156)']]
   major_road_width: [[8, 0.5 px], [9, 1 px], [10, 1.5 px], [12, 1.75 px], [13, 2 px], [14, 2.5 px], [15, 3 px], [16, 3.5 px], [17, 5 px], [18, 17 px], [19, 19 px], [20, 31 px]]
-  major_road_secondary_fill: [[10, 'rgb(22, 121, 156)'], [12, 'rgb(22, 121, 156)'], [13, 'rgb(22, 121, 156)']]
-  major_road_secondary_tunnel_fill: 'rgb(22, 121, 156)'
-  major_road_secondary_outline: 'rgb(22, 121, 156)'
+  major_road_secondary_fill: [[10, 'rgb(92, 121, 156)'], [12, 'rgb(92, 121, 156)'], [13, 'rgb(92, 121, 156)']]
+  major_road_secondary_tunnel_fill: 'rgb(92, 121, 156)'
+  major_road_secondary_outline: 'rgb(92, 121, 156)'
   major_road_secondary_width: [[10, 0.5 px], [12, 1 px], [13, 1.75 px], [14, 2.5 px], [15, 3.5 px], [16, 5.5 px], [17, 6 px], [18, 15 px], [19, 17 px], [20, 27 px]]
   major_road_secondary_link_width: [[13, 0.5 px], [16, 2 px], [17, 2.5 px], [18, 5 px], [19, 10 px], [20, 15 px]]
-  major_road_tertiary_fill: [[11, 'rgb(22, 121, 156)'], [12, 'rgb(22, 121, 156)']]
-  major_road_tertiary_tunnel_fill: 'rgb(22, 121, 156)'
-  major_road_tertiary_outline: 'rgb(22, 121, 156)'
+  major_road_tertiary_fill: [[11, 'rgb(92, 121, 156)'], [12, 'rgb(92, 121, 156)']]
+  major_road_tertiary_tunnel_fill: 'rgb(92, 121, 156)'
+  major_road_tertiary_outline: 'rgb(92, 121, 156)'
   major_road_tertiary_width: [[11, 0.75 px], [12, 1 px], [13, 1.25 px], [14, 1.75 px], [15, 2.5 px], [16, 4.5 px], [17, 4.5 px], [18, 12.5 px], [19, 14.5 px], [20, 23 px]]
-  minor_road_residential_fill: [[13, 'rgb(22, 121, 156)'], [14, 'rgb(22, 121, 156)']]
-  minor_road_residential_tunnel_fill: 'rgb(22, 121, 156)'
-  minor_road_residential_outline: 'rgb(22, 121, 156)'
+  minor_road_residential_fill: [[13, 'rgb(92, 121, 156)'], [14, 'rgb(92, 121, 156)']]
+  minor_road_residential_tunnel_fill: 'rgb(92, 121, 156)'
+  minor_road_residential_outline: 'rgb(92, 121, 156)'
   minor_road_width: [[14, 0.5 px], [14, 1 px], [15, 1.5 px], [17, 3 px], [18, 9 px], [19, 12 px], [20, 23 px]]
 
   minor_road_service_fill: [
-    [13, 'rgb(22, 121, 156)'],
-    [14, 'rgb(22, 121, 156)']
+    [13, 'rgb(92, 121, 156)'],
+    [14, 'rgb(92, 121, 156)']
   ]
-  minor_road_service_tunnel_fill: rgb(22, 121, 156)
-  minor_road_service_outline: rgb(22, 121, 156)
-  minor_road_unpaved_fill: rgb(22, 121, 156)
+  minor_road_service_tunnel_fill: rgb(92, 121, 156)
+  minor_road_service_outline: rgb(92, 121, 156)
+  minor_road_unpaved_fill: rgb(92, 121, 156)
 
   tunnel_order: 305
-  bridge_outline: rgb(22, 121, 156)
+  bridge_outline: rgb(92, 121, 156)
 
   path_pedestrian: rgb(15, 15, 15)
   path_footway: rgb(15, 15, 15)
@@ -475,18 +475,18 @@ global:
   path_footway_forest: rgb(15, 15, 15)
   path_footway_park: rgb(15, 15, 15)
 
-  ferry_line_color: rgb(22, 121, 156)
+  ferry_line_color: rgb(92, 121, 156)
   ferry_label_color: rgb(48,124,207)
-  ferry_tunnel_color: rgb(22, 121, 156)
+  ferry_tunnel_color: rgb(92, 121, 156)
   ferry_label_outline_color: rgb(153,206,255)
 
   #global railway colors
-  rail_dash_background_color: rgb(22, 121, 156)
-  rail_outline_color: rgb(22, 121, 156)
+  rail_dash_background_color: rgb(92, 121, 156)
+  rail_outline_color: rgb(92, 121, 156)
   rail_dash_color: [
-    [10, 'rgb(22, 121, 156)'],
-    [13, 'rgb(22, 121, 156)'],
-    [16, 'rgb(22, 121, 156)']
+    [10, 'rgb(92, 121, 156)'],
+    [13, 'rgb(92, 121, 156)'],
+    [16, 'rgb(92, 121, 156)']
   ]
 
   #global label colours
